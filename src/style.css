@@ -1,0 +1,123 @@
+:root {
+    
+    --primary-color: #CB9A87;
+    --secondary-color: white;
+    --highlight-color:  #FF5000;
+    --alert-color: #005CBB ;
+    --default-transition: 250ms all ease-in-out;
+  }
+
+/* Utilities */
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Built-in elements */
+
+
+body {
+    background-color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2 {
+    padding-right: 80px;
+   
+}
+h1 {
+    font-size: 72px;
+    color: var(--highlight-color);
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+h2 {
+    color: var(--secondary-color);
+    font-weight: normal;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+
+h3 {
+    color: grey;
+    text-align: center;
+}
+
+/* Classes */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    color: var(--secondary-color);
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-icon:hover {
+    color: var(--highlight-color);
+    transition: var(--default-transition);
+}
+
+.contact-link {
+    text-decoration: none;
+}
+
+.main-image {
+    /* border-radius: 5px;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;  
+    margin-top: 30px; */
+    
+}
+
+.menu-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: var(--secondary-color);
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.menu-list-item {
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.menu-list-item:hover {
+    color: var(--highlight-color);
+    transition: var(--default-transition);
+}
+
+.twitter-header {
+    color: #1C9BEF;
+    padding-top: 20px;
+}
+
+.twitter-timeline {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.twitter-section {
+    background-color: white;
+    color: var(--alert-col);
+}
+
