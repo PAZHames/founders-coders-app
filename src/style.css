@@ -46,8 +46,21 @@
 
 .section-content {
     padding: 40px;
-    line-height: 1.5;
+
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .paragraph {
+    line-height: 1.5;
+    font-family: var(--body-font);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
 /* Built-in elements */
 
@@ -85,13 +98,15 @@ h3 {
 
     /* page sections */
 
-.navbar {
+#navbar {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
+    position: relative;
 }
 .hero {
     font-family: var(--heading-font);
+    height: 90vh;
 }
 
 .twitter-section {
@@ -126,8 +141,7 @@ h3 {
     height: auto;
     display: block;
     margin: 0 auto;  
-    margin-top: 30px;  
-    margin-bottom: 90px;
+    margin-top: 70px;  
     box-shadow: 2px 2px 10px, -60px -40px 1px var(--highlight-color), 60px 40px 1px #ffff;
 }
 
@@ -150,9 +164,17 @@ h3 {
     transition: var(--default-transition);
 }
 
-/* #why-section h3 {
+.site-video {
+    justify-content: center;
+}
+
+.project-heading {
+    color: var(--highlight-color);
+    font-size: 36px;
     text-align: center;
-} */
+}
+
+
 
 .twitter-header {
 font-size: 36px;
