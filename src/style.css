@@ -98,11 +98,15 @@ h3 {
 
     /* page sections */
 
+.container {
+    top: 20px;
+}
+
 #navbar {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
-    position: relative;
+    position: sticky;
 }
 .hero {
     font-family: var(--heading-font);

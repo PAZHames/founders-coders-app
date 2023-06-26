@@ -36,3 +36,6 @@ Requirements
 NB
 - site videos 60px from side
 - do i need both .para and .section-content? can i make it drier?
+
+cloudinerary - put images there - git might not cry 
+clone - new repo
